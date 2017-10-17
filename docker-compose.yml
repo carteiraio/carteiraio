@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  carteiraio.api:
+    image: carteiraio.api
+    build:
+      context: ./carteiraio.api
+      dockerfile: Dockerfile
